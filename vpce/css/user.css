@@ -1,0 +1,77 @@
+.reveal .author {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.reveal .author::first-line {
+    /* color: rgb(211, 60, 0); */
+    color: #03CDFF;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.reveal .student {
+    /* color: rgb(211, 60, 0); */
+    color: #03CDFF;
+    font-size: 60%;
+    font-style: italic;
+}
+
+.reveal section img {
+    border: none;
+}
+
+@font-face {
+    font-family: sourcecodepro-light;
+    font-weight: 200;
+    src: local(textbook-bold);
+    src: url('../fonts/SourceCodePro-Light.ttf');
+}
+
+pre,
+.reveal pre code {
+    font-family: 'sourcecodepro-light', textbook, Arial;
+    max-height: none;
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.reveal pre {
+    box-shadow: none;
+}
+
+.reveal .slide-number {
+    font-family: 'sourcecodepro-light', textbook-light, Arial;
+    font-size: .7em;
+    background-color: #5A32FC;
+    background-image: conic-gradient(from 22deg at 100% 10%, #03CDFF, #5A32FC );
+    color: white;
+    padding: 7px;
+    bottom: 20px;
+    box-shadow: 10px 10px 1.4em #03CDFF, -5px -1px 1.9em #5A32FC;
+}
+
+.reveal .columns {
+    display: flex;
+}
+
+.reveal pre.size-L code {
+    font-size: 5em;
+    line-height: 6em;
+}
+
+
+.reveal pre.size-XS code {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.reveal pre.size-XXS code {
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+
+.reveal pre.size-XXXS code {
+    font-size: 0.5em;
+    line-height: 0.9em;
+}
